@@ -31,15 +31,29 @@
 
 /*BODY*/
 
+.box-icon{
+    margin-top: 30px;
+}
+
+.box-icon i{
+    font-size: 50px;
+}
+
+.box-icon h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+
 .section-img {
     width: 500px;
 }
 
 .article{
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 15px;
     
 }
+
 
 .banner{
     padding: 50px;
@@ -77,12 +91,16 @@
         bottom: 30px;
     }
 
+    .box-icon{
+     
+    }
+
     .article{
         padding: 30px 0 0 0;
         margin-top: -150px
     }
 
     .banner{
-        margin-bottom: ;
+        margin-bottom: 30px;
     }
 }
