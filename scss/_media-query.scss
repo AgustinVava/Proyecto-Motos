@@ -1,0 +1,29 @@
+
+
+
+@media(max-width: 767px) {
+    .carousel-item {
+        min-height: 500px;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .carousel-indicators {
+        bottom: 30px;
+    }
+
+    .box-icon {
+        display: none;
+    }
+
+    .article {
+        padding: px;
+        margin-top: px;
+    }
+
+    .banner {
+        display: none;
+    }
+}

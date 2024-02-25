@@ -1,0 +1,30 @@
+
+
+/*Header*/
+.header {
+    .navbar {
+    
+        .navbar-color {
+            color: aqua;
+        }
+    
+        .nav.link {
+            color: darkblue;
+        }
+        
+        .navbar a {
+            font-weight: 600;
+            font-size: 18px;
+        }
+    
+    }
+
+    .header-img {
+        width: 15%;
+    }
+
+}
+
+.header-page-one {
+    @extend .header
+}
