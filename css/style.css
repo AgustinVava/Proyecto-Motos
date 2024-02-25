@@ -1,3 +1,51 @@
+/*Header*/
+.header .navbar .navbar-color, .header-page-one .navbar .navbar-color {
+  color: aqua;
+}
+.header .navbar .nav.link, .header-page-one .navbar .nav.link {
+  color: darkblue;
+}
+.header .navbar .navbar a, .header-page-one .navbar .navbar a {
+  font-weight: 600;
+  font-size: 18px;
+}
+.header .header-img, .header-page-one .header-img {
+  width: 15%;
+}
 
+/*Body*/
+.body .body {
+  background-color: #999999;
+}
+.body .box-icon {
+  margin-top: 30px;
+}
+.body .box-icon .i {
+  font-size: 50px;
+}
+.body .box-icon .h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.body .article {
+  margin-top: 80px;
+  font-size: 15px;
+}
+.body .banner {
+  padding: 50px;
+  margin-bottom: 80px;
+  background-color: #EAE5DF;
+}
+.body .banner .h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.body .banner .img {
+  width: px;
+}
+.body .footer {
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
