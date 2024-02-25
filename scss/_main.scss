@@ -1,11 +1,13 @@
 
 
 /*Body*/
-.body{
+.body{ background-color: #CACFD2;
 
-    .body {
-        background-color: #999999
+    .carousel{
+
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
+
     
     .box-icon {
         margin-top: 30px;
@@ -29,6 +31,15 @@
       
     
     }
+    .card {
+         margin-left: 10px;
+         margin-right: 10px;
+
+         background-color: #999999;
+        
+         border: 1px solid transparent;
+         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
     
     
     
@@ -48,3 +59,30 @@
         }
     }
 }
+
+
+
+/*Body Pages*/
+
+.body-page-one {
+    background-color: #999999;
+}
+
+
+
+.card-container{
+    margin-left: 0%;
+    width: 100%;
+}
+
+.card-one {
+    margin-right: 40%;
+    margin-top: 50px;
+}
+
+.card-two {
+    margin-left: 40%;
+    margin-right: 30px;
+    margin-top: 200px;
+}
+

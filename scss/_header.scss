@@ -1,7 +1,10 @@
 
 
 /*Header*/
-.header {
+
+
+
+.header { background-color: #85929E    ;
     .navbar {
     
         .navbar-color {
@@ -23,8 +26,17 @@
         width: 15%;
     }
 
+    
 }
 
-.header-page-one {
+.header-page {
     @extend .header
+}
+
+.header-page {
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url(../images/Fondo.jpg);
+    background-attachment: fixed;
 }
