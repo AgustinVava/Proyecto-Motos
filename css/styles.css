@@ -1,9 +1,6 @@
 /*Header*/
 .header, .header-page {
-  background-color: #85929E;
-}
-.header .navbar .navbar-color, .header-page .navbar .navbar-color {
-  color: aqua;
+  background-color: #595858;
 }
 .header .navbar .nav.link, .header-page .navbar .nav.link {
   color: darkblue;
@@ -26,13 +23,14 @@
 
 /*Body*/
 .body {
-  background-color: #CACFD2;
+  background-color: #595858;
 }
 .body .carousel {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .body .box-icon {
   margin-top: 30px;
+  color: #D9C5B2;
 }
 .body .box-icon .i {
   font-size: 50px;
@@ -48,14 +46,17 @@
 .body .card {
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #999999;
+  background-color: #95918F;
   border: 1px solid transparent;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.body .cb1 {
+  background-color: rgba(225, 225, 225, 0.1);
 }
 .body .banner {
   padding: 50px;
   margin-bottom: 80px;
-  background-color: #EAE5DF;
+  background-color: #D9C5B2;
 }
 .body .banner .h2 {
   font-size: 40px;
@@ -66,25 +67,25 @@
   width: px;
 }
 
-/*Body Pages*/
-.body-page-one {
-  background-color: #999999;
-}
-
-.card-container {
+/*Page*/
+.section-page-one .card-container {
   margin-left: 0%;
   width: 100%;
 }
-
-.card-one {
+.section-page-one .card-one {
   margin-right: 40%;
   margin-top: 50px;
 }
-
-.card-two {
+.section-page-one .card-two {
   margin-left: 40%;
   margin-right: 30px;
-  margin-top: 200px;
+  margin-top: 100px;
+}
+.section-page-one .cb1 {
+  background-color: rgba(225, 225, 225, 0.5);
+  border: 1px solid transparent;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  color: black;
 }
 
 .footer {
