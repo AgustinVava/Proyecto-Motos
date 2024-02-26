@@ -4,7 +4,7 @@
 
 
 
-.header { background-color: #595858    ;
+.header { background-color: $color-header;
     .navbar {
     
         .nav.link {
@@ -58,17 +58,17 @@
     
 
     .cb1 {
-        background-color: rgba(225, 225, 225, 0.5);
+        background-color: $transparent-cards;
         border: 1px solid transparent;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-        color: black;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        color: $color-p;
      }    
     
     .cb2{
-        background-color: rgba(225, 225, 225, 0.3);
+        background-color: $transparent-cards;
         border: 1px solid transparent;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-        color: black;
+        color: $color-p;
         
         text-align: center;
         

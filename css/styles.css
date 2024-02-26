@@ -38,11 +38,11 @@
 .section-page-one .cb1 {
   background-color: rgba(225, 225, 225, 0.5);
   border: 1px solid transparent;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   color: black;
 }
 .section-page-one .cb2 {
-  background-color: rgba(225, 225, 225, 0.3);
+  background-color: rgba(225, 225, 225, 0.5);
   border: 1px solid transparent;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   color: black;
@@ -54,7 +54,7 @@
   background-color: #595858;
 }
 .body .carousel {
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .body .box-icon {
   margin-top: 30px;
@@ -76,7 +76,7 @@
   margin-right: 10px;
   background-color: #95918F;
   border: 1px solid transparent;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .body .cb1 {
   background-color: rgba(225, 225, 225, 0.1);

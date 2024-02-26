@@ -1,11 +1,11 @@
 
 
 /*Body*/
-.body{ background-color: #595858 ;
+.body{ background-color: $color-header ;
 
     .carousel{
 
-        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        @include box-shadow;
     }
 
     
@@ -36,10 +36,10 @@
          margin-left: 10px;
          margin-right: 10px;
 
-         background-color: #95918F  ;
+         background-color: $color-cards ;
         
          border: 1px solid transparent;
-         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+         @include box-shadow;
     }
 
     .cb1 {
@@ -51,7 +51,7 @@
     .banner {
         padding: 50px;
         margin-bottom: 80px;
-        background-color: #D9C5B2 ;
+        background-color: $color-banner ;
         
         .h2 {
             font-size: 40px;
