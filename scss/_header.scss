@@ -22,8 +22,11 @@
         width: 15%;
     }
 
-    
+   
 }
+
+/*Header Page*/
+
 
 .header-page {
     @extend .header
@@ -36,3 +39,40 @@
     background-image: url(../images/Fondo.jpg);
     background-attachment: fixed;
 }
+.section-page-one {
+    .card-container{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .card-one {
+        margin-right: 40%;
+        margin-top: 30px;
+    }   
+
+    .card-two {
+        margin-left: 40%;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    
+
+    .cb1 {
+        background-color: rgba(225, 225, 225, 0.5);
+        border: 1px solid transparent;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        color: black;
+     }    
+    
+    .cb2{
+        background-color: rgba(225, 225, 225, 0.3);
+        border: 1px solid transparent;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        color: black;
+        
+        text-align: center;
+        
+        
+
+     }
+    }
