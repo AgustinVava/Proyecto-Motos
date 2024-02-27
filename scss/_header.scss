@@ -1,31 +1,35 @@
-
-
 /*Header*/
 
 
 
-.header { background-color: $color-header;
-    .navbar {
-    
-        .nav.link {
-            color: darkblue;
-        }
-        
-        .navbar a {
-            font-weight: 600;
-            font-size: 18px;
-        }
-    
-    }
+.header {
+    background-color: $color-header;
 
     .header-img {
         width: 15%;
     }
 
-   
+
+    /*Navbar*/
+
+    .navbar {
+
+        .nav.link {
+            color: darkblue;
+        }
+
+        .navbar a {
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+    }
+
+
+
 }
 
-/*Header Page*/
+/* Header Page */
 
 
 .header-page {
@@ -39,8 +43,11 @@
     background-image: url(../images/Fondo.jpg);
     background-attachment: fixed;
 }
+
+/* Section y Cards / Pages */
+
 .section-page-one {
-    .card-container{
+    .card-container {
         margin-left: 0%;
         width: 100%;
     }
@@ -48,31 +55,52 @@
     .card-one {
         margin-right: 40%;
         margin-top: 30px;
-    }   
+        transition: transform 0.3s ease;
+    }
+
+    .card-one:hover {
+        transform: translateX(10px);
+    }
 
     .card-two {
         margin-left: 40%;
         margin-right: 30px;
         margin-top: 30px;
+        transition: transform 0.3s ease;
     }
-    
+
+    .card-two:hover {
+        transform: translateX(10px);
+    }
+
 
     .cb1 {
         background-color: $transparent-cards;
         border: 1px solid transparent;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
         color: $color-p;
-     }    
-    
-    .cb2{
+
+    }
+
+    .cb2 {
         background-color: $transparent-cards;
         border: 1px solid transparent;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
         color: $color-p;
-        
-        text-align: center;
-        
-        
 
-     }
+        text-align: center;
+
+        transition: transform 0.3s ease;
+
     }
+
+    .cb2:hover {
+        transform: scale(1.1);
+        
+    }
+
+
+
+
+
+}

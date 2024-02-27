@@ -3,12 +3,17 @@
 /*Body*/
 .body{ background-color: $color-header ;
 
+    
+    /*Carousel*/
+
     .carousel{
 
         @include box-shadow;
     }
 
     
+    /*Icons*/
+
     .box-icon {
         margin-top: 30px;
         
@@ -24,7 +29,8 @@
         color: #D9C5B2;
     }
     
-    
+    /*Article*/
+
     .article {
         margin-top: 80px;
         font-size: 15px;
@@ -32,6 +38,11 @@
       
     
     }
+    
+    
+    /*Cards*/
+
+
     .card {
          margin-left: 10px;
          margin-right: 10px;
@@ -40,13 +51,26 @@
         
          border: 1px solid transparent;
          @include box-shadow;
+    
+        
+    
     }
+    
+    .card {
+        
+        transition: transform 0.3s ease; 
+      }
+      
+      .card:hover {
+        transform: translateY(-5px); 
+      }
 
     .cb1 {
         background-color: rgba(225, 225, 225, 0.1);
     }
     
     
+    /*Banner*/
     
     .banner {
         padding: 50px;
@@ -62,6 +86,15 @@
         .img {
             width: px;
         }
+
+        .img {
+            width: 500px;
+            transition: transform 0.3s ease;
+          }
+          
+          .img:hover:hover {
+            transform: scale(1.1);
+          }
     }
 }
 

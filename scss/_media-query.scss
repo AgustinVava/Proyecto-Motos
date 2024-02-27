@@ -1,12 +1,9 @@
-
-
-
 @media(max-width: 767px) {
-    
-    .header-page{
+
+    .header-page {
         background-position: 20% 30%;
     }
-    
+
     .carousel-item {
         min-height: 500px;
     }
@@ -32,12 +29,16 @@
         display: none;
     }
 
-    .body-page-one{
+    .body-page-one {
 
         background-position: 20% 30%;
     }
 
-    .footer-page{
+    .iframe{
+        display: none;
+    };
+
+    .footer-page {
         display: none;
 
     }

@@ -1,6 +1,10 @@
 /*Header*/
 .header, .header-page {
   background-color: #595858;
+  /*Navbar*/
+}
+.header .header-img, .header-page .header-img {
+  width: 15%;
 }
 .header .navbar .nav.link, .header-page .navbar .nav.link {
   color: darkblue;
@@ -9,11 +13,8 @@
   font-weight: 600;
   font-size: 18px;
 }
-.header .header-img, .header-page .header-img {
-  width: 15%;
-}
 
-/*Header Page*/
+/* Header Page */
 .header-page {
   height: 100vh;
   min-height: 400px;
@@ -22,6 +23,7 @@
   background-attachment: fixed;
 }
 
+/* Section y Cards / Pages */
 .section-page-one .card-container {
   margin-left: 0%;
   width: 100%;
@@ -29,11 +31,19 @@
 .section-page-one .card-one {
   margin-right: 40%;
   margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+.section-page-one .card-one:hover {
+  transform: translateX(10px);
 }
 .section-page-one .card-two {
   margin-left: 40%;
   margin-right: 30px;
   margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+.section-page-one .card-two:hover {
+  transform: translateX(10px);
 }
 .section-page-one .cb1 {
   background-color: rgba(225, 225, 225, 0.5);
@@ -47,11 +57,20 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   color: black;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+.section-page-one .cb2:hover {
+  transform: scale(1.1);
 }
 
 /*Body*/
 .body {
   background-color: #595858;
+  /*Carousel*/
+  /*Icons*/
+  /*Article*/
+  /*Cards*/
+  /*Banner*/
 }
 .body .carousel {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -78,6 +97,12 @@
   border: 1px solid transparent;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+.body .card {
+  transition: transform 0.3s ease;
+}
+.body .card:hover {
+  transform: translateY(-5px);
+}
 .body .cb1 {
   background-color: rgba(225, 225, 225, 0.1);
 }
@@ -93,6 +118,13 @@
 }
 .body .banner .img {
   width: px;
+}
+.body .banner .img {
+  width: 500px;
+  transition: transform 0.3s ease;
+}
+.body .banner .img:hover:hover {
+  transform: scale(1.1);
 }
 
 /*Page*/
@@ -138,6 +170,9 @@
   }
   .body-page-one {
     background-position: 20% 30%;
+  }
+  .iframe {
+    display: none;
   }
   .footer-page {
     display: none;
